@@ -45,3 +45,11 @@ The PriorityQueue class provides the facility of using queue. But it does not or
 The following constructor is used to store Process objects as per their priorities.
 		public PriorityQueue(int initialCapacity, Comparator<? super E> comparator)
 This constructor creates a PriorityQueue with the specified initial capacity that orders its elements according to the specified comparator.
+
+# Output Screenshots
+
+The output would vary because of use of random function.
+![1](./images/1.jpg)
+![2](./images/2.jpg)
+![3](./images/3.jpg)
+![4](./images/4.jpg)
