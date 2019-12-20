@@ -27,23 +27,27 @@ Multithreading in Java is a process of executing multiple threads simultaneously
 There are two ways to create a thread:
 	1. By extending Thread class
 	2. By implementing Runnable interface.	
-In this project, the thread is created by implemeting the Runnable interface. Runnable interface has only one method named run() which must be defined compulsorily defined by the class implementing Runnable. 
-	public void run(): It is used to perform action for a thread.
+In this project, the thread is created by implemeting the Runnable interface. Runnable interface has only one method named ```run()``` which must be defined compulsorily defined by the class implementing Runnable. 
+
+```public void run()```
+It is used to perform action for a thread.
 	
 ## Collection Class:
 Collections in Java is a framework that provides an architecture to store and manipulate the group of objects. All the operations performed on a data such as searching, sorting, insertion, manipulation, deletion etc. can be performed by Java Collections. Java Collection simply means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque etc.) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet etc). In  this project, PriorityQueue, LinkedList and Queue are the collections used. 
-Java LinkedList class
-			
+
+### Java LinkedList class			
 Java LinkedList class uses doubly linked list to store the elements. It provides a linked-list data structure. It inherits the AbstractList class and implements List and Deque interfaces.
-Java Queue Interface
 
+### Java Queue Interface
 Java Queue interface orders the element in FIFO(First In First Out) manner. In FIFO, first element is removed first and last element is removed at last.
-PriorityQueue class
 
+### PriorityQueue class
 The PriorityQueue class provides the facility of using queue. But it does not orders the elements in FIFO manner. It inherits AbstractQueue class. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used. The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements -- ties are broken arbitrarily. 
 
 The following constructor is used to store Process objects as per their priorities.
-		public PriorityQueue(int initialCapacity, Comparator<? super E> comparator)
+		
+```public PriorityQueue(int initialCapacity, Comparator<? super E> comparator)```
+
 This constructor creates a PriorityQueue with the specified initial capacity that orders its elements according to the specified comparator.
 
 # Output Screenshots
